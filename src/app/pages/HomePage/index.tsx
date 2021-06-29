@@ -3,6 +3,7 @@ import styled from "styled-components";
 import tw from "twin.macro";
 import { Navbar } from "../../components/navbar";
 const PageContainer = styled.div`
+// background-color : #fafafa;
   ${tw`
     flex
     flex-col
@@ -10,6 +11,8 @@ const PageContainer = styled.div`
     h-full
     items-center
     overflow-x-hidden
+
+
   `}
 `;
 
